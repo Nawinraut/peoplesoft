@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CloudSuiteTag]">
+  <test thread-count="5" name="CloudTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cloud.test.HCM2.GM_Assign_GoalPlan_to_an_Employee_by_HR">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="GM_Assign_Goal_to_Emp_by_HR" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cloud.test.HCM2.GM_Assign_GoalPlan_to_an_Employee_by_HR -->
+    </classes>
+  </test> <!-- CloudTests(failed) -->
+</suite> <!-- Failed suite [CloudSuiteTag] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TempSuitetag1]">
+  <test thread-count="5" name="FinanceModuleTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cloud.test.Finance.AR_Adjust_Transactions">
+        <methods>
+          <include name="Cloud_Adjust_Transactions" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cloud.test.Finance.AR_Adjust_Transactions -->
+    </classes>
+  </test> <!-- FinanceModuleTests(failed) -->
+</suite> <!-- Failed suite [TempSuitetag1] -->

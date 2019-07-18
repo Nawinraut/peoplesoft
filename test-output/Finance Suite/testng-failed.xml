@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Finance Suite]">
+  <test thread-count="5" name="Finanace Module Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cloud.test.Finance.AP_CreditMemoInvoice">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="AP_Credit_Memo_Invoice" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cloud.test.Finance.AP_CreditMemoInvoice -->
+    </classes>
+  </test> <!-- Finanace Module Tests(failed) -->
+</suite> <!-- Failed suite [Finance Suite] -->

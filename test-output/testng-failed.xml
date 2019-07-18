@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TempSuitetag]">
+  <parameter name="browser" value="chrome"/>
+  <test name="HCMModuleTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cloud.test.HCM.TC_CoreHR_NewHire_of_an_Employee">
+        <methods>
+          <include name="HCM_CoreHR_NewHire" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cloud.test.HCM.TC_CoreHR_NewHire_of_an_Employee -->
+    </classes>
+  </test> <!-- HCMModuleTests(failed) -->
+</suite> <!-- Failed suite [TempSuitetag] -->
